@@ -145,7 +145,7 @@ const Nav: React.FC = () => {
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
         <div className="sm:hidden bg-black-400 rounded-b-lg shadow-lg">
-          <div className="pt-2 pb-3 space-y-1">
+          {/* <div className="pt-2 pb-3 space-y-1">
             {menuItems.map((item) => (
               <Link
                 key={item.name}
@@ -155,7 +155,8 @@ const Nav: React.FC = () => {
                 {item.name}
               </Link>
             ))}
-          </div>
+          </div> */}
+          <NavigationMenuDemo/>
         </div>
       )}
     </nav>
