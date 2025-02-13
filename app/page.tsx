@@ -4,6 +4,7 @@ import { TextHoverEffectDemo } from '@/components/TextHoverEffectDemo'
 import { WobbleCardDemo } from '@/components/WobbleCardDemo'
 
 import React from 'react'
+import Details from './details/page'
 
 const page = () => {
   return (
@@ -11,7 +12,7 @@ const page = () => {
       <TextHoverEffectDemo/>
     <WobbleCardDemo/>
       {/* <GlowingEffectDemoSecond/> */}
-    <TabsDemo/>
+    <Details/>
     </div>
   )
 }

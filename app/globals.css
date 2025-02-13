@@ -5,3 +5,18 @@
 body{
   background-color: black;
 }
+/* 
+@keyframes meteor {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(200px) translateX(-200px) scale(0.5);
+    opacity: 0;
+  }
+}
+
+.animate-meteor-effect {
+  animation: meteor linear infinite;
+} */
