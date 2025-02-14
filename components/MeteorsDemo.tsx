@@ -25,7 +25,7 @@ export function MeteorsDemo({ title, content, coverImage, slug }: MeteorsDemoPro
         </div>
         <h1 className="font-bold text-lg text-white mb-2">{title}</h1>
         <p className="text-sm text-gray-400 mb-4">{content.substring(0, 100)}...</p>
-        <Link href={`/details/${slug}`}  key={slug}  passHref>
+        <Link href={`/details/${slug}`} passHref>
           <button className="w-40 h-10 rounded-xl bg-black text-white text-sm">Read more</button>
         </Link>
         <Meteors className="z-50" number={10} />
