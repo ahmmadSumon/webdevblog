@@ -23,7 +23,7 @@ export function MeteorsDemo({ title, content, coverImage, slug }: MeteorsDemoPro
             className="w-full h-full object-cover rounded-lg"
           />
         </div>
-        <h1 className="font-bold text-lg text-white mb-2">{title}</h1>
+        <h1 className="font-bold text-lg bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-2">{title}</h1>
         <p className="text-sm text-gray-400 mb-4">{content.substring(0, 100)}...</p>
         <Link href={`/details/${slug}`} passHref>
           <button className="w-40 h-10 rounded-xl bg-black text-white text-sm">Read more</button>

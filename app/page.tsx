@@ -10,9 +10,10 @@ const page = () => {
   return (
     <div>
       <TextHoverEffectDemo/>
-    <WobbleCardDemo/>
-      {/* <GlowingEffectDemoSecond/> */}
+      <WobbleCardDemo/>  
+   
     <Details/>
+    <GlowingEffectDemoSecond/>
     </div>
   )
 }
