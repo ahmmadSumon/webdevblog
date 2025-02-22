@@ -29,11 +29,11 @@ export function MeteorsDemo({ title, content, coverImage, slug }: MeteorsDemoPro
         {/* Motion Title with Hover Underline */}
         <motion.h1 
   className="font-bold text-xl bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-2 relative inline-block"
-  whileHover={{ y: -2 }} // Moves slightly up on hover
+ // Moves slightly up on hover
 >
   {title}
   <motion.div
-    className="absolute left-0 bottom-0 w-full h-[2px] bg-pink-400"
+    className="absolute left-0 bottom-0 w-full h-[2px] bg-red-400"
     initial={{ scaleX: 0 }}
     whileHover={{ scaleX: 1 }}
     transition={{ duration: 0.3, ease: "easeOut" }}
