@@ -20,3 +20,44 @@ body{
 .animate-meteor-effect {
   animation: meteor linear infinite;
 } */
+.link-underline {
+  background-image: linear-gradient(transparent, transparent), 
+  linear-gradient(#fff, #fff);
+background-size: 0% 3px; /* Start with no width */
+background-position: 0 100%;
+background-repeat: no-repeat;
+transition: background-size 1s ease-in-out;
+display: inline; /* Keeps the underline under each line separately */
+box-decoration-break: clone;
+-webkit-box-decoration-break: clone;
+padding-bottom: 2px; /* Adjust for spacing */
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(rgb(222, 245, 17), rgb(229, 233, 22));
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;  /* Adjust thickness */
+  text-decoration-color: rgb(240, 255, 34);  /* Match your underline color */
+  text-underline-offset: 4px; /* Adds spacing */
+}
+
+
+/* .link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, rgb(218, 240, 23), rgb(219, 240, 28));
+  transition: width 0.5s ease-in-out;
+}
+
+.link-underline:hover::after {
+  width: 100%;
+} */

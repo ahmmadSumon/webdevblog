@@ -5,13 +5,14 @@ import { WobbleCardDemo } from '@/components/WobbleCardDemo'
 
 import React from 'react'
 import Details from './details/page'
+import Counter from '@/components/counter'
 
 const page = () => {
   return (
     <div>
       <TextHoverEffectDemo/>
       <WobbleCardDemo/>  
-   
+   {/* <Counter/> */}
     <Details/>
     <GlowingEffectDemoSecond/>
     </div>
