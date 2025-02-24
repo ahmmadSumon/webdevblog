@@ -77,9 +77,14 @@ const Nav: React.FC = () => {
           <div className="flex items-center space-x-4">
             <div className="flex py-5">
               <Link href="/products">
-                <button className="bg-[#F85606] text-white py-2 px-4 rounded-lg">
-                  Buy Best
-                </button>
+              <button className="relative rounded-full px-6 py-3 bg-[#e02e2e] dark:bg-white dark:text-black  text-white text-sm font-medium tracking-wide overflow-hidden group">
+            <span className="relative z-10 block transition-transform duration-300 group-hover:-translate-y-8">
+              SUBSCRIBE
+            </span>
+            <span className="absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            SUBSCRIBE
+            </span>
+          </button>
               </Link>
             </div>
           </div>
