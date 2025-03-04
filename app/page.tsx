@@ -6,6 +6,7 @@ import { WobbleCardDemo } from '@/components/WobbleCardDemo'
 import React from 'react'
 import Details from './details/page'
 import Counter from '@/components/counter'
+import { VortexDemo } from '@/components/VortexDemo'
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
    {/* <Counter/> */}
     <Details/>
     <GlowingEffectDemoSecond/>
+    <VortexDemo/>
     </div>
   )
 }

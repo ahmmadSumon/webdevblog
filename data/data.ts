@@ -7,6 +7,7 @@ export const data = [
     category: "Web Development",
     coverImage: "/belt.jpg",
     createdAt: "2025-02-11T10:00:00Z",
+    date: "2025-02-11", // Added this
   },
   {
     title: "Modern Web Design Trends in 2025",
@@ -16,6 +17,7 @@ export const data = [
     category: "Design",
     coverImage: "/belt.jpg",
     createdAt: "2025-02-10T15:30:00Z",
+    date: "2025-02-10",
   },
   {
     title: "Mastering React.js for Frontend Development",
@@ -25,6 +27,7 @@ export const data = [
     category: "Frontend",
     coverImage: "/belt.jpg",
     createdAt: "2025-02-09T12:15:00Z",
+    date: "2025-02-09",
   },
   {
     title: "Building Scalable Backend with Node.js and Express",
@@ -34,6 +37,7 @@ export const data = [
     category: "Backend",
     coverImage: "/belt.jpg",
     createdAt: "2025-02-08T08:45:00Z",
+    date: "2025-02-08",
   },
   {
     title: "How AI is Transforming Web Development",
@@ -43,6 +47,7 @@ export const data = [
     category: "AI with Web",
     coverImage: "/belt.jpg",
     createdAt: "2025-02-07T18:20:00Z",
+    date: "2025-02-07",
   },
   {
     title: "CSS Grid vs. Flexbox: Which One to Use?",
@@ -52,6 +57,7 @@ export const data = [
     category: "Frontend",
     coverImage: "/belt.jpg",
     createdAt: "2025-02-06T14:10:00Z",
+    date: "2025-02-06",
   },
   {
     title: "Top 10 JavaScript Frameworks in 2025",
@@ -61,6 +67,7 @@ export const data = [
     category: "Web Development",
     coverImage: "/belt.jpg",
     createdAt: "2025-02-05T11:00:00Z",
+    date: "2025-02-05",
   },
   {
     title: "Creating a REST API with Node.js and Express",
@@ -70,6 +77,7 @@ export const data = [
     category: "Backend",
     coverImage: "/belt.jpg",
     createdAt: "2025-02-04T09:30:00Z",
+    date: "2025-02-04",
   },
   {
     title: "The Future of UI/UX Design",
@@ -79,6 +87,7 @@ export const data = [
     category: "Design",
     coverImage: "/belt.jpg",
     createdAt: "2025-02-03T16:45:00Z",
+    date: "2025-02-03",
   },
   {
     title: "AI-powered Chatbots for Web Applications",
@@ -88,5 +97,6 @@ export const data = [
     category: "AI with Web",
     coverImage: "/belt.jpg",
     createdAt: "2025-02-02T13:25:00Z",
+    date: "2025-02-02",
   },
 ];
