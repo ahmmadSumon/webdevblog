@@ -35,7 +35,7 @@ export function MeteorsDemo({ title, content, coverImage, slug }: MeteorsDemoPro
 
         <p className="text-lg text-white/80 mb-4">{content.substring(0, 100)}...</p>
         
-          <button className="w-40 h-10 rounded-xl bg-black text-white text-sm">Read more</button>
+          <button className="w-40 h-10 rounded-xl bg-slate-500 text-white text-sm">Read more</button>
         
         <Meteors className="z-50" number={10} />
       </div>

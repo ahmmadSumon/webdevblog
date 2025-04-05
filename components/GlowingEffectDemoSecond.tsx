@@ -87,6 +87,7 @@ const GridItem = ({ area, icon, title, description, image }: GridItemProps) => {
               >
                 {description}
               </h2>
+              <button className="w-40 h-10 rounded-xl bg-black text-white text-sm">Read more</button>
             </div>
           </div>
         </div>
